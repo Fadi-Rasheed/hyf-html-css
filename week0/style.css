@@ -1,0 +1,53 @@
+body {
+    background-color:rgb(186,192,197);
+    margin:25px;
+    font-family:serif;
+  }
+#basic-info {
+    float:right;
+    width:25%;
+    margin-left:15px;
+    margin-bottem:15px;
+    background-color:rgb(119,119,117);
+    padding:5px;
+    border:solid 1.5px;
+  }
+#self-port-table{
+    text-align:center;
+  }
+.basic-info {
+    border:solid 1px rgb(186,192,197);
+  }
+#saskia-painting {
+    background-color:rgb(119,119,117);
+    float:left;
+    margin-right:5px;
+    margin-top:5px;
+    margin-bottem:5px;
+    font-size:13px;
+    text-align:center;
+    padding:10px
+  }
+#titus-painting {
+    background-color:rgb(119,119,117);
+    float:right;
+    margin-left:5px;
+    margin-top:5px;
+    margin-bottem:5px;
+    font-size:13px;
+    text-align:center;
+    padding:10px
+  }
+.painting {
+    background-color:rgb(119,119,117);
+    margin: 20px;
+    text-align:center;
+    border:solid 1px rgb(149,123,131);
+    width:32%
+  }
+h1, h2, h3 {
+    text-decoration:underline;
+    font-style:italic;
+  }
+  
+  
