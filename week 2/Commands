@@ -78,10 +78,10 @@ a@a-PC MINGW32 ~/documents
 $ echo "cat" > command.txt
 
 a@a-PC MINGW32 ~/documents
-$ echo "ls" > command.txt
+$ echo "ls" >> command.txt
 
 a@a-PC MINGW32 ~/documents
-$ echo "pwd" > command.txt
+$ echo "pwd" >> command.txt
 
 a@a-PC MINGW32 ~/documents
 $ cat pets.txt command.txt | sort | uniq
