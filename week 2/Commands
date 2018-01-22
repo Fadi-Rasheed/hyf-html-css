@@ -1,0 +1,101 @@
+a@a-PC MINGW32 ~
+$ cd documents
+
+a@a-PC MINGW32 ~/documents
+$ pwd
+/c/Users/a/documents
+
+a@a-PC MINGW32 ~/documents
+$ mkdir a
+
+a@a-PC MINGW32 ~/documents
+$ touch blank
+
+a@a-PC MINGW32 ~/documents
+$ touch greetings.txt
+
+a@a-PC MINGW32 ~/documents
+$ echo "Hello" > greetings.txt
+
+a@a-PC MINGW32 ~/documents
+$ echo "Hello" >> greetings.txt
+
+a@a-PC MINGW32 ~/documents
+$ echo "Hello" >> greetings.txt
+
+a@a-PC MINGW32 ~/documents
+$ echo "Hello" >> greetings.txt
+
+a@a-PC MINGW32 ~/documents
+$ echo "Hello" >> greetings.txt
+
+a@a-PC MINGW32 ~/documents
+$ touch 1.txt
+
+a@a-PC MINGW32 ~/documents
+$ touch 2.txt
+
+a@a-PC MINGW32 ~/documents
+$ touch 3.txt
+
+a@a-PC MINGW32 ~/documents
+$ touch 4.txt
+
+a@a-PC MINGW32 ~/documents
+$ touch 5.txt
+
+a@a-PC MINGW32 ~/documents
+$ cat greetings.txt > 1.txt
+
+a@a-PC MINGW32 ~/documents
+$ cat greetings.txt > 2.txt
+
+a@a-PC MINGW32 ~/documents
+$ cat greetings.txt > 3.txt
+
+a@a-PC MINGW32 ~/documents
+$ cat greetings.txt > 4.txt
+
+a@a-PC MINGW32 ~/documents
+$ cat greetings.txt > 5.txt
+
+a@a-PC MINGW32 ~/documents
+$ touch pets.txt
+
+a@a-PC MINGW32 ~/documents
+$ echo "Cat" > pets.txt
+
+a@a-PC MINGW32 ~/documents
+$ echo "Dog" >> pets.txt
+
+a@a-PC MINGW32 ~/documents
+$ echo "Hamester" >> pets.txt
+
+a@a-PC MINGW32 ~/documents
+$ touch commands.txt
+
+a@a-PC MINGW32 ~/documents
+$ echo "cat" > command.txt
+
+a@a-PC MINGW32 ~/documents
+$ echo "ls" > command.txt
+
+a@a-PC MINGW32 ~/documents
+$ echo "pwd" > command.txt
+
+a@a-PC MINGW32 ~/documents
+$ cat pets.txt command.txt | sort | uniq
+Cat
+Dog
+Hamester
+pwd
+
+a@a-PC MINGW32 ~/documents
+$ cat pets.txt command.txt | sort | uniq > lovlelycommands.txt
+
+a@a-PC MINGW32 ~/documents
+$ cat lovlelycommands.txt
+Cat
+Dog
+Hamester
+pwd
