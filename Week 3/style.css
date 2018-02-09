@@ -1,0 +1,129 @@
+html{
+    background-image: url(images/background-3048166_1920.jpg)  
+}
+header {
+    text-align: center;
+    top:0px ;
+    background-color: rgb(3, 4, 73);
+    color: white;
+}
+body{
+    margin:0px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+ }
+
+nav {
+    background-color: rgb(218, 226, 230);
+    border: 1px solid;
+ }
+
+#navlist {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: space-between;
+    text-align: center;
+}
+
+.navlist {
+    margin: 0px;
+}
+
+#navlist :nth-child(1) {
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0px;
+    font-weight :bold;
+    font-family: cursive;
+    font-style: italic;
+    vertical-align: text-top;
+    font-size: 3em;
+}
+img {
+    width: 95%;
+}
+#johannes{
+    width: 100%;
+}
+#sites {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.topdiv {
+    background-color: aliceblue;
+    border: solid 1px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.topdiv:hover{
+    background-color: rgb(3, 4, 73);
+    color: white;
+}
+#topdiv{
+    display : flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width : 100%;
+}
+#midbar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.secdiv {
+    background-color: aliceblue;
+    border: solid 1px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+#secdiv {
+    display : flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width : 100%;
+}
+#secdiv:hover {
+    background-color: rgb(3, 4, 73);
+    color: white;
+}
+#video {
+    background-color: aliceblue;
+    border: solid 1px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+@media all and (max-width: 480px){
+    #navlist > * {
+        flex: 1 100%;
+      } 
+}
+@media all and (min-width: 481px) and (max-width: 1023px) {
+    #topdiv .topdiv{
+        width: 45%;
+        margin: 1%;
+    }
+    #secdiv .secdiv {
+        width: 45%;
+        margin: 1%;
+    }
+
+}
+@media all and (min-width: 1024px) {
+    #topdiv .topdiv{
+        width: 30%;
+        margin: 1%;
+    }
+    #secdiv .secdiv {
+        width: 30%;
+        margin: 1%;
+    }
+
+}
